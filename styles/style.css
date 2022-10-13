@@ -1,0 +1,206 @@
+/* 
+body {
+  font-family: 'Raleway';
+} */
+
+h1 {
+  font-family: 'Open Sans';
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+p {
+  font-family: 'Raleway';
+}
+
+.link {
+  color: #3C9F8F;
+}
+
+.link:hover {
+  color: #5ECCBA;
+}
+
+.btn:hover {
+  background-color: #5F9DFA;
+  border-style: solid;
+  border-color: #5F9DFA;
+}
+
+/* navbar */
+
+.nav-item {
+  padding-left: 15px;
+}
+
+#header {
+  padding-top: 5%;
+}
+
+.header-logo {
+  width: 10%;
+  height: auto;
+}
+
+#header-content {
+  padding: 5% 0;
+}
+
+#curved-image {
+  padding-top: 5%;
+  background-size: 100%;
+  background-image: url("../images/bg-curve-desktop.svg");
+  background-repeat: no-repeat;
+}
+
+#content {
+  padding: 5% 0;
+  background-color: #f6f6fe;
+
+}
+
+#annotation {
+  background-color: #FFFFFF;
+  padding: 3%;
+  width: 400px;
+  border-radius: 10px;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 60px;
+  height: auto;
+}
+
+.kyle-name {
+  font-family: 'Open Sans';
+  font-size: 15px;
+}
+
+.kyle-founder {
+  font-family: 'Open Sans';
+  font-size: 13px;
+}
+
+
+#access {
+  background-color: #585989;
+  padding: 5% 0;
+}
+
+
+#footer{
+  background-color: #070439;
+  padding: 5% 0;
+  color: #FFFFFF;
+}
+
+.footer-logo {
+  padding-bottom: 3%;
+}
+
+.grid-container-1 {
+  display: grid;
+  grid-template-columns: auto;
+}
+
+.grid-item-1 {
+  padding: 10px;
+}
+
+.grid-container-2 {
+  display: grid;
+  grid-template-columns: auto;
+}
+
+.grid-item-2 {
+  padding: 10px;
+}
+
+.grid-container-3 {
+  display: grid;
+  grid-template-columns: auto;
+}
+
+.grid-item-3 {
+  padding: 10px;
+}
+
+.fa-stack:hover {
+   color: #5F9DFA; 
+}
+
+@media screen and (max-width: 800px) { 
+
+  /* body {
+    text-align: center;
+  } */
+
+  .header-logo {
+    width: 30%;
+    height: auto;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+  }
+  
+  .btn {
+    width: 100%;
+  }
+
+  .btn-div {
+    text-align: center;
+  }
+
+  .text-button {
+    text-align: center;
+  }
+
+  .text-form {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .form-control {
+    width: 100%;
+  }
+
+  #curved-image {
+    padding-top: 10%;
+    background-size: 100%;
+    background-image: url("../images/bg-curve-mobile.svg");
+    background-repeat: no-repeat;
+  }
+
+  #annotation {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  #footer {
+    text-align: left;
+  }
+
+  .social-logo {
+    text-align: center;
+  }
+
+}
+
+
+/* 
+#070439 - very dark blue
+#585989 - desaturated blue
+#3065f8 - bright blue
+#3c9f8f - moderate cyan
+#f6f6fe - light grayish blue
+#bfbfbf - light gray
+
+font-family: 'Raleway', sans-serif;
+font-family: 'Open Sans', sans-serif;
+ */
